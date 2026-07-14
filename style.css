@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700;800&display=swap');
 
+.esconder {
+    opacity: 0;              /* invisível */
+    transform: translateY(30px); /* 30px mais pra baixo do lugar normal */
+    transition: opacity 1s, transform 1s; /* suaviza a mudança */
+}
+
+.mostrar {
+    opacity: 1;               /* visível */
+    transform: translateY(0); /* volta pro lugar normal */
+}
+
+
 * {
     margin: 0;
     padding: 0;

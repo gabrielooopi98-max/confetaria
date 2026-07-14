@@ -1,4 +1,4 @@
-const cardsCardapio = document.querySelector('.cards-cardapio');
+  const cardsCardapio = document.querySelector('.cards-cardapio');
 
 // FUNÇÃO FORMATAR PREÇO PARA TROCAR O '.' POR ','
 
