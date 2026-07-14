@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="PT-BR">
+
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <title>Meu Site</title>
+</head>
+
+<body>
+
+    <header class="barra-menu">
+        <div class="lado-esquerdo">
+            <img src="../imagens/img-logo-rose-cake.png" alt="logo-rose-cakes" class="logo-rose-cakes">
+            <h3>𝓡𝓸𝓼𝓮<b>CAKES</b></h3>
+        </div>
+    </header>
+
+    <!--BANER DA LOJA-->
+
+    <section class="banner">
+        <div class="container-banner">
+            <img src="../imagens/img-logo-rose-cake.png" alt="logo-rose-cake" class="logo-rose-cake">
+            <div class="nome-da-loja" aria-hidden="true">𝓡𝓸𝓼𝓮<b>CAKES</b></div>
+            <h1>𝓑𝓸𝓵𝓸𝓼 𝓒𝓸𝓶 𝓐𝓵𝓶𝓪</h1>
+            <p class="tag">Cada Bolo é Feito Com amor, com receitas de familia e ingredientes que a gente escolheria pra
+                propria festa.</p>
+
+            <div class="acoes-banner">
+                <a href="#cardapio" class="btn-ver-cardapio">Ver Cardapio</a>
+                <a href="#" class="btn-fazer-pedido">Fazer-Pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container-info">
+            <div class="info-block">
+                <h3>Encomendas</h3>
+                <p>Pedidos Com <strong>2 dias De Antecedência</strong>, Ou Conforme Disponibilidade Na Agenda Da Semana.
+                </p>
+            </div>
+
+            <div class="info-block">
+                <h3>Pagamentos</h3>
+                <p>Pagamento <strong>De 50% Do Valor</strong> Para Confirmar o Pedido</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-cardapio" id="cardapio">
+        <div class="header-cardapio">
+            <h2>𝓒𝓪𝓻𝓭𝓪𝓹𝓲𝓸</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Categorias Do Cardapio">
+            <button class="tab active" data-cat="tradicional">Tradicional</button>
+            <button class="tab" data-cat="premium">Premium</button>
+            <button class="tab" data-cat="especial">Especial</button>
+        </div>
+    </section>
+
+    <section class="cardapio">
+        <div class="cards-cardapio">
+            <article class="card-cardapio"></article>
+        </div>
+    </section>
+
+
+    <section class="info-como-encomendar">
+        <div class="info-container">
+            <h2>Como Encomendar?</h2>
+        </div>
+
+        <div class="dicas-grid">
+            <div class="dica">
+                <span class="numero-dica">1</span>
+                <h5>Escolha o Bolo</h5>
+                <p>Veja o cardapio e escolha o sabor.</p>
+            </div>
+
+            <div class="dica">
+                <span class="numero-dica">2</span>
+                <h5>Chama No Whats</h5>
+                <p>Manda mensagem com a data do dia da festa e os detalhes do pedido.</p>
+            </div>
+
+            <div class="dica">
+                <span class="numero-dica">3</span>
+                <h5>Confirme Seu Pedido</h5>
+                <p>Paque 50% via pix, cartão ou dinheiro fisico para ter a confirmação do seu pedido.</p>
+            </div>
+
+            <div class="dica">
+                <span class="numero-dica">4</span>
+                <h5>È So Receber</h5>
+                <p>No dia combinado, é só buscar o bolo fresquinho é ele estara pronto para sua festa!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h2>Vamos Fazer Seu Bolo?</h2>
+        <p>Me manda um oi no wathsApp e conta pra gente sobre sua festa.</p>
+        <a class="btn-contato-comercial" href="https://wa.me/" target="_blank" rel="noopener">Falar No WhatsApp</a>
+    </section>
+
+    <footer>
+        <div class="footer-warp">
+            <div class="footer-col">
+                <span>Rose Cakes</span>
+                <p>Bolos Artesanais Feitos Com Carinho, Para Momentos Que Merecem Doçura De Verdade.</p>
+            </div>
+
+            <div class="footer-col">
+                <h6>Contato</h6>
+                <a href="htpps://wa.me/" target="_blank" rel="noopener">(55) 00000-0000</a>
+                <a href="#">@rosecakes</a>
+            </div>
+
+            <div class="footer-col">
+                <h6>Atendimentos</h6>
+                <p>Encomendas Com 2 Dias De Antecedencia</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <a href="https://wa.me/55SEUNUMERO" class="whatsapp-flutuante" target="_blank" aria-label="Falar no WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="#fff">
+            <path
+                d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.5 0 .17 5.33.17 11.9c0 2.1.55 4.16 1.6 5.98L0 24l6.3-1.65a11.9 11.9 0 005.77 1.47h.01c6.57 0 11.9-5.34 11.9-11.91 0-3.18-1.24-6.17-3.46-8.43zM12.08 21.3a9.35 9.35 0 01-4.76-1.3l-.34-.2-3.74.98 1-3.65-.22-.37a9.35 9.35 0 01-1.43-4.98c0-5.18 4.22-9.4 9.41-9.4 2.51 0 4.87.98 6.65 2.75a9.33 9.33 0 012.75 6.65c0 5.18-4.22 9.4-9.4 9.4zm5.15-7.04c-.28-.14-1.64-.81-1.9-.91-.25-.09-.43-.14-.61.14-.18.28-.7.91-.86 1.09-.16.19-.31.21-.59.07-.28-.14-1.18-.43-2.25-1.37-.83-.74-1.4-1.65-1.56-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.61-1.47-.84-2.01-.22-.53-.44-.46-.61-.47h-.52c-.18 0-.47.07-.71.35-.25.28-.95.93-.95 2.26 0 1.33.97 2.61 1.11 2.79.14.19 1.91 2.91 4.63 4.08.65.28 1.16.45 1.55.57.65.2 1.24.17 1.71.1.52-.08 1.64-.67 1.87-1.32.23-.65.23-1.21.16-1.33-.07-.11-.25-.18-.52-.32z" />
+        </svg>
+    </a>
+
+    <script src="js/dados-bolos.js"></script>
+    <script src="js/card-cardapio.js"></script>
+</body>
+
+</html>
